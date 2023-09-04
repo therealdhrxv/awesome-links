@@ -12,4 +12,4 @@ export const typeDefs = `
   type Query {
     links: [Link]!
   }
-`
+`;
