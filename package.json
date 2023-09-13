@@ -9,6 +9,7 @@
     "ts-node": "ts-node -compiler-options '{\"module\": \"CommonJS\"}'"
   },
   "dependencies": {
+    "@apollo/client": "^3.8.3",
     "@pothos/core": "^3.34.0",
     "@pothos/plugin-prisma": "^3.59.1",
     "@prisma/client": "^5.2.0",
