@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "ts-node": "ts-node -compiler-options '{\"module\": \"CommonJS\"}'"
+    "ts-node": "ts-node -compiler-options '{\"module\": \"CommonJS\"}'",
+    "vercel-build": "npx prisma generate --data-proxy && next build"
   },
   "dependencies": {
     "@apollo/client": "^3.8.3",
