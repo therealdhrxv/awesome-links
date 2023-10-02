@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useUser } from "@auth0/nextjs-auth0/client";
 
 const Header = () => {
-  const { user } = useUser();  // This hook from Auth0 checks whether a user is authenticated or not. This hook runs client-side.
+  const { user } = useUser(); // This hook from Auth0 checks whether a user is authenticated or not. This hook runs client-side.
   return (
     <header className="text-gray-600 body-font">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
@@ -35,6 +35,11 @@ const Header = () => {
               >
                 My Favorites
               </Link>
+              {user && (
+                <div className="flex items-center justify-center mr-5 capitalize bg-blue-500 py-1 px-3 rounded-md text-white">
+                  <Link href="/admin">+ Create</Link>
+                </div>
+              )}
               <Link
                 href="/api/auth/logout"
                 className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
