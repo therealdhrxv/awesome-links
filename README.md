@@ -102,7 +102,3 @@ We'll review your contributions and merge them into the project if they align wi
 - GraphQL
 - Apollo Client
 - Auth0 Next.js SDK
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
