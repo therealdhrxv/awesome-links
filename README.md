@@ -66,7 +66,7 @@ We welcome contributions from the community! To contribute to this project, foll
 2. Clone your forked repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/awesome-links.git
+   git clone https://github.com/therealdhruv/awesome-links.git
    cd awesome-links
    ```
 
