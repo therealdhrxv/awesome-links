@@ -1,7 +1,7 @@
 import React from 'react';
 import { AwesomeLink } from '../components/AwesomeLink';
 import { gql, useQuery } from '@apollo/client';
-import type { Link } from '.prisma/client';
+import type { Link } from '@prisma/client';
 
 const FavoritesQuery = gql`
   query {
