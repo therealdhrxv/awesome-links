@@ -40,7 +40,9 @@ Follow these instructions to get a copy of the project up and running on your lo
 
    ```bash
    # Create a PostgreSQL database (if not already created)
-   # Update the database configuration in the `.env` file
+   # Create a new `.env` file and add your database configuration.
+   # It could look something like this:
+   DATABASE_URL="postgresql://username:password@localhost:5432/dbname"
 
    # Run Prisma migrations to create tables:
    npm run prisma:migrate
@@ -102,3 +104,12 @@ We'll review your contributions and merge them into the project if they align wi
 - GraphQL
 - Apollo Client
 - Auth0 Next.js SDK
+
+## Known Issues
+1. ```bash
+   /bin/sh: pnpm: command not found
+   ```
+   This is because the `pnpm` package manager is not installed or not available in your system. You need to install it globally by running:
+   ```bash 
+   npm install -g pnpm
+   ```
