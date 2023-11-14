@@ -1,7 +1,7 @@
 # Awesome-Links
 
 ## About Project
-Awesome-Links is a full-stack web application that allows users to browse through a curated list of links and bookmark their favorite ones. This README provides an overview of the project and instructions for contributing. This repository is open for **Hacktoberfest 2023!!**
+Awesome-Links is a full-stack web application that allows users to browse through a curated list of links and bookmark their favourite ones. This README provides an overview of the project and instructions for contributing. This repository is open for **Hacktoberfest 2023!!**
 
 ## Features
 
