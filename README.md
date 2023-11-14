@@ -98,7 +98,6 @@ We'll review your contributions and merge them into the project if they align wi
 
 ## Technologies Used
 - Next.js
-- React
 - Tailwind CSS
 - Prisma
 - GraphQL
