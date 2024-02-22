@@ -45,7 +45,7 @@ Follow these instructions to get a copy of the project up and running on your lo
    DATABASE_URL="postgresql://username:password@localhost:5432/dbname"
 
    # Run Prisma migrations to create tables:
-   npm run prisma:migrate
+   npx prisma migrate dev
 
    # Seed initial data (optional):
    npm run prisma:seed
